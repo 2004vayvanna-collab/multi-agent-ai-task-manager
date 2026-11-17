@@ -1,0 +1,19 @@
+# Virtual environments and Python caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Personal tasks and execution state
+tasks.json
+*.sqlite
+*.sqlite-*
+*.db
+
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+.vscode/
+graph_agent_backup.py
